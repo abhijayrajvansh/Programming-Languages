@@ -1,0 +1,35 @@
+adding some #define commands:
+- vector <int> 
+
+to declare and initialise size and value:
+
+- vector<char> v1(5); 
+5 size vector of data type char;
+
+- vector <int> v2(3, 10);
+3 size vector of data type int and every value has == 10;
+
+- vector <string> v3(3, "hello");
+3 size vector of sata type string and every string == "hello";
+
+* Vector push_back(vector_name) *
+to add an element in the vector;
+
+* vecor_name.pop_back *
+removes the last element from the vector, but doesn't reduces the capacity;
+
+* vector_name.capacity() *
+returns the current size of the vector;
+
+* vecor_name.size() *
+returns the number of elements present in the vector;
+
+* vecror.clear() *
+it clear all the elements from the vector
+
+* vector_name.at(indexValue) *
+returns the value of the index ;
+
+* vecor_name.front() && vector_name.back() *
+returns the first and the last element of the vector;
+

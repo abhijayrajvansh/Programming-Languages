@@ -1,0 +1,54 @@
+/**
+*    author: abhijayrajvansh
+*    06.07.2021  05:34:01
+**/
+#include <bits/stdc++.h>
+using namespace std;
+
+#define FAST ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define MOD 1000000007
+#define MOD1 998244353
+#define INF 1e18
+#define pb push_back
+#define ppb pop_back
+#define mp make_pair
+#define ff first
+#define ss second
+#define PI (3.141592653589793238462)
+#define set_bits __builtin_popcountll
+#define sz(x) ((int)(x).size())
+#define all(x) (x).begin(), (x).end()
+
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double lld;
+
+void run_cases(){
+    int n; cin >> n;
+    int k;
+    for(int i = 1; i <= n; i++){
+        k = i-1;
+        for(int s = (2 * n) - (2 * i); s >= 1; s--){
+            cout << " ";
+        }
+        for(int j = 1; j <= i; j++){
+            cout << ++k;
+        }
+        if(i != 1){
+            for(int r = 1; r <= i-1; r++){
+                cout << --k;
+            }
+        }
+        cout << endl;
+    }
+}
+
+int main() {
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+    FAST;
+    run_cases();
+    return 0;
+}

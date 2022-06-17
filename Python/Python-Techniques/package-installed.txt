@@ -1,0 +1,4 @@
+selenium for web driver
+
+pip install selenium
+pip install validators

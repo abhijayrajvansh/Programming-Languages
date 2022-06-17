@@ -1,0 +1,7 @@
+#shortcuts:
+
+1. to navigate through tabs press:-
+"command + option + arrow key"
+
+2. to create split screen pres :-
+"command + \ "
